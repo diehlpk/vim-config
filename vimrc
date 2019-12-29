@@ -29,11 +29,3 @@ set dir=~/.cache/vim
 " Directory to store backup files
 set backupdir=~/.cache/vim
 
-"Sets in-line spellchecking
-autocmd FileType gitcommit setlocal spell
-autocmd BufRead,BufnewFile *.md setlocal spell
-" Set local language
-setlocal spell spelllang=en_us
-
-set complete+=kspell
-
