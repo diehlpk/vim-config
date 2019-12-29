@@ -8,6 +8,8 @@ set encoding=utf-8
 
 " Show line numbers
 set number
+" Show line number on the current line and relative numbers on all other lines
+set relativenumber
 
 " Tab as 4 spaces
 filetype plugin indent on
@@ -20,3 +22,9 @@ set expandtab
 " New lines inherit the indentation of previous lines.
 set autoindent
 
+" Automatically re-read files if unmodified inside Vim
+set autoread
+" Directory to store swap files
+set dir=~/.cache/vim
+" Directory to store backup files
+set backupdir=~/.cache/vim
